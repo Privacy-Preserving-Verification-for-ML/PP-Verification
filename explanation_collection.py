@@ -31,7 +31,7 @@ class explanation_collection:
         explanations = []
         
         current_count = 0
-        n_test=5000
+        n_test=500
         num_test_cases = n_test
         
         for i in tqdm(range(self.X_q.shape[0])):
